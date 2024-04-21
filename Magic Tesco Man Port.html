@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAGIC HOBO</title>
+<style>
+	body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+	}
+</style>
+</head>
+<body>
+<h1>TEACHINGS OF THE MAGIC HOBO</h1>
+<p>Click the button below to receive tru magiccz</p>
+<button onclick="rollResponse()">Roll</button>
+<p id="response"></p>
+
+<script>
+function rollResponse() {
+    var responses = [
+        "white bread is the best bread. easiest to find too",
+        "i have a name, but fuck you",
+        "the golden palace also had a homeless shelter",
+        "gab is richer than the mainland.",
+        "remember kids, cocaine is the most common tesco drug",
+        "no you don't get the magic fuck you",
+        "seb is gay and alfie likes femboys",
+        "fun fact, janusz korwin mikke is my wife",
+        "nezerac has 7 ballz, this is canon and important",
+        "my uncle killed hitlah",
+        "gab's crystalised testicle is green.",
+        "i always speak the truth.* 100% guarantee",
+        "go to robux.gg to get your free prize",
+        "eat uranium it gives u superpowers bro",
+        "please donate carrots I'm poor",
+        "jamaica is NOT a country.",
+        "africa? you mean slavery?",
+		"zip bombs are a fun prank to play on your hamster",
+        "i have 2 crystal balls. that's why I'm better.",
+        "oliver gay for the jajistsu kiyak",
+        "I don't get paid for this shit",
+        "we haven't got any good names",
+        "i am broke give me c's pls",
+		"go to detroit and shout sreggin backwards",
+        "the beige library is ran by mouses",
+        "alfie gay",
+        "https://www.youtube.com/@potatokingwastaken",
+        "WOW the website ported to HTML!!!!!!!!!!!! SO SHOCKING IM GONNA BOMB A MINORITY!!!!!!!!!!!!!",
+		"'the length of my cock will have you out of the equation like plus minus to an Asian!'-my master Slamjhatoon",
+		"chicken tower donates to fighting cancer... patient",];
+
+    var randomNumber = Math.floor(Math.random() * responses.length);
+    var responseElement = document.getElementById("response");
+    responseElement.textContent = responses[randomNumber];}
+</script>
+</body>
+</html>
